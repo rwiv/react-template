@@ -14,4 +14,4 @@ export interface Env {
   VITE_PORT: string;
 }
 
-export const env = (import.meta as unknown as Meta).env
+export const env = (import.meta as unknown as Meta).env;

@@ -1,4 +1,4 @@
-import {css} from "@emotion/react";
+import { css } from '@emotion/react';
 
 const style = css`
   color: hotpink;
@@ -6,6 +6,8 @@ const style = css`
 
 export function IndexPage() {
   return (
-    <div className="m-3" css={style}>hello</div>
-  )
+    <div className="m-3" css={style}>
+      hello
+    </div>
+  );
 }
